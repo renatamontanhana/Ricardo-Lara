@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-image: url(../img/castelo.jpg);
+  background-image: url(../img/avila.png);
   background-size: cover;
   background-position: top center;
   height: 100%;
@@ -22,7 +22,7 @@ header h1 {
   padding: 10px;
 }
 
-.topCasaFina-banner {
+.ricardolara-banner {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -34,9 +34,13 @@ header h1 {
   transform: translate(-50%, -50%);
   transition: 0.3s;
 }
+.btn {
+  color: #cccccc;
+  background-color: rgba(204, 191, 191, 0.5);
+}
 
 .titulo-depoimentos {
-  background-color: #0275d8;
+  background-color: #0c5493;
   padding-top: 25px;
   padding-bottom: 25px;
   color: #fff;
@@ -50,13 +54,16 @@ header h1 {
   width: 50%;
   vertical-align: top;
 }
+.contato-select {
+  float: right;
+}
 
 .grupo-radio .radio:first-child {
   margin-top: 0;
 }
 
 footer {
-  background-color: #333;
+  background-color: rgb(71, 69, 69);
   color: #fff;
   padding: 20px;
   margin-top: 10px;
